@@ -1,0 +1,12 @@
+#encoding: utf-8
+defaults: &defaults
+  host: http://127.0.0.1
+
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults
