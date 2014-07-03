@@ -29,7 +29,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 
 gem 'yajl-ruby', '~> 1.2.1'
-gem 'oj', '~> 2.9.8'
+gem 'oj', '~> 2.9.7'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.

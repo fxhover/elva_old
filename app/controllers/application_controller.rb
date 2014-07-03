@@ -17,7 +17,7 @@ class ApplicationController < ActionController::Base
 
   def result_json(status, data)
     result = {status: status, result: data}
-    Oj.dump result
+    Oj.dump result, mode: :compat
   end
 
   def render_json(status, data)

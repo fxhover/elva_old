@@ -99,7 +99,7 @@ PLATFORMS
 DEPENDENCIES
   jbuilder (~> 1.2)
   mysql2
-  oj (~> 2.9.8)
+  oj (~> 2.9.7)
   rails (= 4.0.1)
   sdoc
   turbolinks
